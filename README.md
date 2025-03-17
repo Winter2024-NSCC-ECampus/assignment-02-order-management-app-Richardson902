@@ -46,7 +46,9 @@ docker compose up --build
 
 ### Access the Application
 - For **production version**, navigate to `http://localhost:8081`
-- for **development version**, navigate to `http://localhost:5173`
+- For **development version**, navigate to `http://localhost:5173`
+- For **viewing the database**, use any method to connect to the database. The username is `postgres` and the password is `topsecret`
+- To **log in as admin**, the application automatically creates a default admin user with email `admin@admin.com` and password `admin123`
 
 ## Technologies Used
 - **Spring Boot**
